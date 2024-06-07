@@ -13,7 +13,7 @@ export default async function MoviePage({ params }) {
         <Image
           src={`https://image.tmdb.org/t/p/original/${
             movie.backdrop_path || movie.poster_path
-          }`}
+          }language=pt-BR`}
           width={500}
           height={300}
           className='rounded-lg shadow-2xl'
